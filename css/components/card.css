@@ -1,0 +1,102 @@
+.card-nosotros{
+  text-align: center;
+
+}
+
+.main-1{
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-2{
+  background-color: #f1fbfc;
+  padding: 40px;
+}
+.main-2 h1{
+  margin-top: 50px;
+  font-size: 42px;
+}
+
+.main-2 p{
+  margin: 20px;
+  margin-bottom: 40px;
+  font-size: 24px;
+}
+
+.card-contactanos{
+  background-color: teal;
+  height: 600px;
+}
+
+.card-contactanos form{
+  width: 600px;
+  height: 500px;
+  margin: auto;
+  border-radius: 15px;
+  padding: 80px;
+  margin-bottom: 40px;
+}
+
+.card-contactanos button{
+  margin-top: 10px;
+}
+
+.card-video{
+  height: 600px;
+  background-color: #d2eef3;
+}
+
+.card-video .contenido{
+  margin: auto;
+  text-align: center;
+  padding: 5%;
+}
+
+.card-video p{
+  font-size: 22px;
+  color: black;
+}
+.text-product{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card-products h5{
+  color: #007489;
+}
+
+.card-products h3{
+  padding: 20px;
+}
+
+@media (max-width: 960px) {
+  /* Para una pantalla < 960px, se leerá este CSS */
+  .main-1, .main-2 {
+    height: 400px;
+  }
+  .main-2 p{
+    font-size: 15px;
+  }
+}
+@media (max-width: 720px) {
+  /* Para una pantalla < 720px, se leerá este CSS */
+  .main-1, .main-2 {
+    height: 500px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 540px) {
+  /* Para una pantalla < 540px, se leerá este CSS */
+  .main-1, .main-2 {
+    height: 300px;
+    font-size: 12px;
+    padding: 30px;
+  }
+    .main-2 h1{
+    font-size: 15px;
+  }
+    .main-2 p{
+    font-size: 10px;
+  }
+}
